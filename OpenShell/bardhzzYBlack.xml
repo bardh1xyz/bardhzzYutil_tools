@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurations>
-  <configuration name="Settings">
-    <setting name="MenuStyle">Win7</setting>
-    <setting name="SkinW7">Fluent-Refresh</setting>
-    <setting name="SkinVariationW7">Dark</setting>
-    <setting name="MenuDelay">0</setting>
-    <setting name="MenuAnimation">None</setting>
-    <setting name="DelayIcons">0</setting>
-    <setting name="SubmenuDelay">0</setting>
-    <setting name="CheckForUpdates">0</setting>
-    <setting name="DisableWebSearch">1</setting>
-    <setting name="SearchBox">1</setting>
-    <setting name="SearchPrograms">1</setting>
-    <setting name="SearchFiles">0</setting>
-    <setting name="SearchSubfolders">0</setting>
-    <setting name="SearchPath">0</setting>
-    <setting name="SearchDelay">0</setting>
-    <setting name="MaxRecentPrograms">0</setting>
-    <setting name="ShowRecentPrograms">0</setting>
-    <setting name="TrackPrograms">0</setting>
-    <setting name="RecentFiles">Hide</setting>
-    <setting name="ShowUserPic">0</setting>
-    <setting name="UserFilesItem">Hide</setting>
-    <setting name="DocumentsItem">Hide</setting>
-    <setting name="PicturesItem">Hide</setting>
-    <setting name="MusicItem">Hide</setting>
-    <setting name="VideosItem">Hide</setting>
-    <setting name="DownloadsItem">Hide</setting>
-    <setting name="HelpItem">Hide</setting>
-    <setting name="RunItem">Hide</setting>
-    <setting name="NetworkItem">Hide</setting>
-    <setting name="ComputerItem">Hide</setting>
-    <setting name="ControlPanelItem">Hide</setting>
-    <setting name="SettingsItem">Hide</setting>
-  </configuration>
-</configurations>
+<settings>
+  <section name="General">
+    <setting name="MenuStyle" value="Win7"/>
+    <setting name="MenuDelay" value="0"/>
+    <setting name="MenuAnimation" value="None"/>
+    <setting name="DelayIcons" value="0"/>
+    <setting name="SubmenuDelay" value="0"/>
+    <setting name="CheckForUpdates" value="0"/>
+    <setting name="ShowUserPic" value="0"/>
+    <setting name="MaxRecentPrograms" value="0"/>
+    <setting name="ShowRecentPrograms" value="0"/>
+    <setting name="TrackPrograms" value="0"/>
+    <setting name="RecentFiles" value="Hide"/>
+  </section>
+  <section name="Search">
+    <setting name="DisableWebSearch" value="1"/>
+    <setting name="SearchBox" value="1"/>
+    <setting name="SearchPrograms" value="1"/>
+    <setting name="SearchFiles" value="0"/>
+    <setting name="SearchSubfolders" value="0"/>
+    <setting name="SearchPath" value="0"/>
+    <setting name="SearchDelay" value="0"/>
+  </section>
+  <section name="Skin">
+    <setting name="SkinW7" value="Fluent-Refresh"/>
+    <setting name="SkinVariationW7" value="Dark"/>
+  </section>
+  <section name="Items">
+    <setting name="UserFilesItem" value="Hide"/>
+    <setting name="DocumentsItem" value="Hide"/>
+    <setting name="PicturesItem" value="Hide"/>
+    <setting name="MusicItem" value="Hide"/>
+    <setting name="VideosItem" value="Hide"/>
+    <setting name="DownloadsItem" value="Hide"/>
+    <setting name="HelpItem" value="Hide"/>
+    <setting name="RunItem" value="Hide"/>
+    <setting name="NetworkItem" value="Hide"/>
+    <setting name="ComputerItem" value="Hide"/>
+    <setting name="ControlPanelItem" value="Hide"/>
+    <setting name="SettingsItem" value="Hide"/>
+  </section>
+</settings>
