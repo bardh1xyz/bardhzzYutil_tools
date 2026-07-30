@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+  <configuration name="Settings">
+    <setting name="MenuStyle">Win7</setting>
+    <setting name="SkinW7">Fluent-Refresh</setting>
+    <setting name="SkinVariationW7">Dark</setting>
+    <setting name="MenuDelay">0</setting>
+    <setting name="MenuAnimation">None</setting>
+    <setting name="DelayIcons">0</setting>
+    <setting name="SubmenuDelay">0</setting>
+    <setting name="CheckForUpdates">0</setting>
+    <setting name="DisableWebSearch">1</setting>
+    <setting name="SearchBox">1</setting>
+    <setting name="SearchPrograms">1</setting>
+    <setting name="SearchFiles">0</setting>
+    <setting name="SearchSubfolders">0</setting>
+    <setting name="SearchPath">0</setting>
+    <setting name="SearchDelay">0</setting>
+    <setting name="MaxRecentPrograms">0</setting>
+    <setting name="ShowRecentPrograms">0</setting>
+    <setting name="TrackPrograms">0</setting>
+    <setting name="RecentFiles">Hide</setting>
+    <setting name="ShowUserPic">0</setting>
+    <setting name="UserFilesItem">Hide</setting>
+    <setting name="DocumentsItem">Hide</setting>
+    <setting name="PicturesItem">Hide</setting>
+    <setting name="MusicItem">Hide</setting>
+    <setting name="VideosItem">Hide</setting>
+    <setting name="DownloadsItem">Hide</setting>
+    <setting name="HelpItem">Hide</setting>
+    <setting name="RunItem">Hide</setting>
+    <setting name="NetworkItem">Hide</setting>
+    <setting name="ComputerItem">Hide</setting>
+    <setting name="ControlPanelItem">Hide</setting>
+    <setting name="SettingsItem">Hide</setting>
+  </configuration>
+</configurations>
