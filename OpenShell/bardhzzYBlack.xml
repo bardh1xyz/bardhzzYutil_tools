@@ -1,43 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<settings>
-  <section name="General">
-    <setting name="MenuStyle" value="Win7"/>
-    <setting name="MenuDelay" value="0"/>
-    <setting name="MenuAnimation" value="None"/>
-    <setting name="DelayIcons" value="0"/>
-    <setting name="SubmenuDelay" value="0"/>
-    <setting name="CheckForUpdates" value="0"/>
-    <setting name="ShowUserPic" value="0"/>
-    <setting name="MaxRecentPrograms" value="0"/>
-    <setting name="ShowRecentPrograms" value="0"/>
-    <setting name="TrackPrograms" value="0"/>
-    <setting name="RecentFiles" value="Hide"/>
-  </section>
-  <section name="Search">
-    <setting name="DisableWebSearch" value="1"/>
-    <setting name="SearchBox" value="1"/>
-    <setting name="SearchPrograms" value="1"/>
-    <setting name="SearchFiles" value="0"/>
-    <setting name="SearchSubfolders" value="0"/>
-    <setting name="SearchPath" value="0"/>
-    <setting name="SearchDelay" value="0"/>
-  </section>
-  <section name="Skin">
-    <setting name="SkinW7" value="Fluent-Refresh"/>
-    <setting name="SkinVariationW7" value="Dark"/>
-  </section>
-  <section name="Items">
-    <setting name="UserFilesItem" value="Hide"/>
-    <setting name="DocumentsItem" value="Hide"/>
-    <setting name="PicturesItem" value="Hide"/>
-    <setting name="MusicItem" value="Hide"/>
-    <setting name="VideosItem" value="Hide"/>
-    <setting name="DownloadsItem" value="Hide"/>
-    <setting name="HelpItem" value="Hide"/>
-    <setting name="RunItem" value="Hide"/>
-    <setting name="NetworkItem" value="Hide"/>
-    <setting name="ComputerItem" value="Hide"/>
-    <setting name="ControlPanelItem" value="Hide"/>
-    <setting name="SettingsItem" value="Hide"/>
-  </section>
-</settings>
+<?xml version="1.0"?>
+<Settings component="StartMenu" version="4.4.198">
+	<MenuStyle value="Win7"/>
+	<ShiftClick value="ClassicMenu"/>
+	<ShiftWin value="ClassicMenu"/>
+	<ShiftRight value="1"/>
+	<RecentPrograms value="None"/>
+	<StartScreenShortcut value="0"/>
+	<HighlightNew value="0"/>
+	<HighlightNewApps value="0"/>
+	<CheckWinUpdates value="0"/>
+	<ScrollType value="Scroll"/>
+	<MainMenuAnimate value="0"/>
+	<FontSmoothing value="None"/>
+	<MenuShadow value="0"/>
+	<EnableGlass value="0"/>
+	<SkinW7 value="Fluent-Metro"/>
+	<SkinVariationW7 value=""/>
+	<SkinOptionsW7>
+		<Line>DARK_MAIN=0</Line>
+		<Line>METRO_MAIN=0</Line>
+		<Line>LIGHT_MAIN=0</Line>
+		<Line>AUTOMODE_MAIN=0</Line>
+		<Line>CUSTOM_MAIN=000000</Line>
+		<Line>DARK_SUBMENU=0</Line>
+		<Line>METRO_SUBMENU=0</Line>
+		<Line>LIGHT_SUBMENU=0</Line>
+		<Line>AUTOMODE_SUBMENU=0</Line>
+		<Line>CUSTOM_SUBMENU=000000</Line>
+		<Line>SUBMENU_SEPARATORS=1</Line>
+		<Line>DARK_SEARCH=1</Line>
+		<Line>METRO_SEARCH=0</Line>
+		<Line>LIGHT_SEARCH=0</Line>
+		<Line>AUTOMODE_SEARCH=0</Line>
+		<Line>SEARCH_FRAME=0</Line>
+		<Line>SEARCH_COLOR=0</Line>
+		<Line>SMALL_SEARCH=0</Line>
+		<Line>MODERN_SEARCH=1</Line>
+		<Line>SEARCH_HINT=1</Line>
+		<Line>SEARCH_ITALICS=0</Line>
+		<Line>NONE=1</Line>
+		<Line>SEPARATOR=0</Line>
+		<Line>TWO_TONE=0</Line>
+		<Line>CLASSIC_SELECTOR=1</Line>
+		<Line>HALF_SELECTOR=0</Line>
+		<Line>CURVED_MENUSEL=1</Line>
+		<Line>CURVED_SUBMENU=0</Line>
+		<Line>SELECTOR_REVEAL=0</Line>
+		<Line>TRANSPARENT=0</Line>
+		<Line>OPAQUE_SUBMENU=0</Line>
+		<Line>OPAQUE_MENU=0</Line>
+		<Line>OPAQUE=1</Line>
+		<Line>STANDARD=0</Line>
+		<Line>SMALL_MAIN2=1</Line>
+		<Line>SMALL_ICONS=0</Line>
+		<Line>COMPACT_SUBMENU=1</Line>
+		<Line>PRESERVE_MAIN2=0</Line>
+		<Line>LESS_PADDING=1</Line>
+		<Line>EXTRA_PADDING=0</Line>
+		<Line>24_PADDING=1</Line>
+		<Line>LARGE_PROGRAMS=0</Line>
+		<Line>TRANSPARENT_SHUTDOWN=0</Line>
+		<Line>OUTLINE_SHUTDOWN=1</Line>
+		<Line>BUTTON_SHUTDOWN=0</Line>
+		<Line>EXPERIMENTAL_SHUTDOWN=0</Line>
+		<Line>LARGE_FONT=0</Line>
+		<Line>CONNECTED_BORDER=0</Line>
+		<Line>FLOATING_BORDER=1</Line>
+		<Line>LARGE_SUBMENU=0</Line>
+		<Line>LARGE_LISTS=0</Line>
+		<Line>THIN_MAIN2=0</Line>
+		<Line>EXPERIMENTAL_MAIN2=1</Line>
+		<Line>USER_IMAGE=1</Line>
+		<Line>USER_OUTSIDE=0</Line>
+		<Line>SCALING_USER=1</Line>
+		<Line>56=0</Line>
+		<Line>64=0</Line>
+		<Line>TRANSPARENT_USER=0</Line>
+		<Line>UWP_SCROLLBAR=0</Line>
+		<Line>MODERN_SCROLLBAR=1</Line>
+		<Line>OLD_ICONS=0</Line>
+		<Line>NEW_ICONS=1</Line>
+		<Line>SMALL_ARROWS=1</Line>
+		<Line>ICON_FRAME=0</Line>
+		<Line>SEARCH_SEPARATOR=0</Line>
+		<Line>NO_PROGRAMS_BUTTON=0</Line>
+	</SkinOptionsW7>
+	<SkipMetro value="1"/>
+</Settings>
